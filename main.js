@@ -1,5 +1,0 @@
-function sayHello() {
-    alert("CANCEL!");
-}
-
-

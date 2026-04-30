@@ -1,21 +1,33 @@
 <html>
     <head>
+        <link rel="stylesheet" href="assets/css/styles.css">
 <title>my web page</title>
     </head>
     <body>
-      <h1>case</h1>
-      <button onclick="sayHello()">click</button>
+        <section>
+      <h1 id="target">case </h1>
 
+      <button onclick="sayHello()">click</button>
+    
+</section>
 <!-- <p id="counter">0</p> -->
+ <section>
       <p id="counter">0</p>
 
       <button onclick="increment()">Increment Counter</button>
       <button onclick="decrement()">Decrement Counter</button>
       <button onclick="reset()">Reset Counter</button>
+</section>
 
-        <script src="main.js">  baybay</script>
-        <script src="counter.js"></script>
+<section>
 
+      <img id="photo" src="assets/images/cat.jpg" width ="320">
+      <button onclick="changePic()">Change Picture</button>
+</section>
+
+      <script src="assets/js/main.js"></script>
+      <script src="assets/js/counter.js"></script>
+      <script src="assets/js/image.js"></script>
 
     </body>
 </html>
