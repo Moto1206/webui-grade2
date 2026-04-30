@@ -1,3 +1,11 @@
+let name = "baby blu";
+let number = 10;
+let flag = true;
+let flag2 = false;
+
+
+
+
 let isCat = true;
 
 function changePic() {
@@ -9,3 +17,5 @@ function changePic() {
     }
     isCat = !isCat;
 }
+
+setInterval(changePic, 1000);
