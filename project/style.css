@@ -1,0 +1,100 @@
+/* Định dạng cơ bản cho toàn bộ trang */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Thanh Menu ở trên cùng */
+.header {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    display: flex; /* Xếp logo và menu nằm hàng ngang */
+    justify-content: space-between; /* Đẩy logo sang trái, menu sang phải */
+    align-items: center;
+}
+
+.logo-area {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+}
+
+.menu ul {
+    display: flex; /* Xếp các chữ Home, Products hàng ngang */
+    list-style: none; /* Bỏ dấu chấm tròn của danh sách */
+}
+
+.menu li {
+    margin-left: 20px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none; /* Bỏ gạch chân của link */
+}
+
+/* Khu vực Banner giới thiệu */
+.hero {
+    background-color: #e2e2e2;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.btn {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+/* Khu vực hiển thị sản phẩm */
+.products {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.product-list {
+    display: flex; /* Xếp 4 sản phẩm nằm hàng ngang */
+    justify-content: center;
+    gap: 20px; /* Tạo khoảng cách giữa các sản phẩm */
+    flex-wrap: wrap; /* Nếu màn hình nhỏ, tự động xuống dòng */
+}
+
+.product-item {
+    background-color: white;
+    padding: 15px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.product-item button {
+    background-color: #28a745; /* Màu xanh lá */
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer; /* Biến chuột thành hình bàn tay khi chỉ vào */
+}
+
+/* Khu vực liên hệ và chân trang */
+.contact {
+    background-color: #ddd;
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
